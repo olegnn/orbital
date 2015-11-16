@@ -1,0 +1,9 @@
+#!/bin/bash
+
+
+
+chromium-browser --allow-file-access-from-files --allow-file-access --allow-cross-origin-auth-prompt index.html & live-reload . & (cd ls && /usr/lib/node_modules/livescript/bin/lsc -wc -o '../js' .)
+
+
+
+exit 0
